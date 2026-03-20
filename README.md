@@ -70,3 +70,125 @@ This project mimics modern Business Intelligence tools like Power BI and Tableau
 ---
 
 ## 📂 Project Structure
+viz-dashboard-platform/
+│
+├── backend/
+│ ├── main.py
+│ └── requirements.txt
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── AutoChart.js
+│ │ ├── pages/
+│ │ │ ├── UploadDataset.js
+│ │ │ ├── DataPreview.js
+│ │ │ ├── Visualization.js
+│ │ │ └── Dashboard.js
+│ │ └── App.js
+│
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔹 Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+
+Backend will run on:
+
+http://localhost:8000
+🔹 Frontend Setup
+cd frontend
+npm install
+npm start
+
+Frontend will run on:
+
+http://localhost:3000
+🔗 API Endpoints
+Method	Endpoint	Description
+POST	/upload	Upload dataset
+GET	/preview	Get dataset preview
+POST	/save-dashboard	Save layout
+GET	/dashboard/{id}	Load saved dashboard
+🔄 Application Flow
+Upload Dataset
+      ↓
+Preview Data
+      ↓
+Generate Charts
+      ↓
+Build Dashboard
+      ↓
+Export / Save Dashboard
+📸 Screenshots (Add your images here)
+/screenshots/upload.png
+/screenshots/dashboard.png
+/screenshots/charts.png
+🚀 Future Enhancements
+
+🤖 AI-based chart recommendations
+
+🎨 Theme customization
+
+🔐 User authentication
+
+☁️ Cloud storage integration
+
+📊 Advanced analytics (filters, grouping)
+
+💡 Use Cases
+
+Business analytics dashboards
+
+Student data projects
+
+Data science visualization tools
+
+Portfolio projects
+
+👨‍💻 Author
+
+Saurav
+Frontend & Backend Developer
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🛠 Contribute
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+
+---
+
+# ✅ What makes this README professional
+
+- Clean structure
+- Industry-standard sections
+- Clear tech explanation
+- Ready for GitHub portfolio
+- Matches tools like Power BI / Tableau concept
+
+---
+
+If you want next level upgrade, I can:
+
+✅ Add **badges (build, version, license)**  
+✅ Add **live demo section**  
+✅ Add **GIF preview animations**  
+✅ Convert it into **top-tier portfolio README (resume-level)**
