@@ -157,7 +157,7 @@ Portfolio projects
 👨‍💻 Author
 
 Saurav
-Frontend & Backend Developer
+Data Analyst | Frontend & Backend Developer
 
 ⭐ Support
 
@@ -173,22 +173,3 @@ If you like this project:
 
 This project is open-source and available under the MIT License.
 
-
----
-
-# ✅ What makes this README professional
-
-- Clean structure
-- Industry-standard sections
-- Clear tech explanation
-- Ready for GitHub portfolio
-- Matches tools like Power BI / Tableau concept
-
----
-
-If you want next level upgrade, I can:
-
-✅ Add **badges (build, version, license)**  
-✅ Add **live demo section**  
-✅ Add **GIF preview animations**  
-✅ Convert it into **top-tier portfolio README (resume-level)**
